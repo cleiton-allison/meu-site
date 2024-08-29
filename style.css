@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #2a3d45;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3e5360;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5a7381;
+    transform: scale(1.05);
+}
+
+nav ul li a.active {
+    background-color: #607d8b;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+main h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto em todo o corpo */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens da navegação */
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    text-align: center; /* Centraliza o texto dentro do main */
+    padding: 1rem;
+    min-height: 80vh; /* Garante que a seção ocupe uma altura mínima */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px; /* Ajuste conforme necessário */
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Ajusta a largura para o máximo disponível no contêiner */
+    max-width: 400px; /* Define uma largura máxima para os campos de texto */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%; /* Ajusta a largura para o máximo disponível no contêiner */
+    max-width: 400px; /* Define uma largura máxima para a caixa de texto */
+    height: 100px; /* Ajusta a altura da caixa de texto */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Permite redimensionar apenas verticalmente, se necessário */
+}
+
+

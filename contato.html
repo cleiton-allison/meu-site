@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="formacao.html">Educação</a></li>
+                <li><a href="portfolio.html">Trabalhos</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Contato -->
+    <main>
+        <section>
+            <h1>Entre em Contato</h1>
+            <p>Preencha o formulário abaixo para enviar uma mensagem:</p>
+            
+            <form action="#" method="post">
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                
+                <div>
+                    <label for="mensagem">Sua Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui" required></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
